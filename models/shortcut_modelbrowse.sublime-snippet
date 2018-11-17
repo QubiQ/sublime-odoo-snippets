@@ -1,7 +1,6 @@
 <snippet>
     <content><![CDATA[
-${1:model}_obj = self.env['${2:model.name}']
-${1}_set = ${1}_obj.browse(${3:1})
+${1:model} = self.env['${2:model.name}'].browse(${3:1})
 ${0}
 ]]></content>
     <tabTrigger>modelbrowse</tabTrigger>
